@@ -1,0 +1,48 @@
+:root{
+--max-width:1200px;
+--gutter:20px;
+--color-navy:#083B87;
+--color-blue:#01ACEE;
+--font-family:"Open Sans","Roboto",Arial,sans-serif;
+--finger-size:40px;
+--border-radius:3px;
+--color-soft-blue:#F1F6FF;
+}
+body{
+    font-family: var(--font-family);
+}
+
+.Header{
+    border-bottom: 1px solid #ddd;
+}
+.container{
+    max-width: var(--max-width);
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    align-items: center;
+    height: 64px;
+}
+
+a{
+    color: var(--color-navy);
+    display: inline-flex;
+    align-items: center;
+    text-decoration: none;
+}
+
+.Header-menu{
+    margin-left: auto;
+    display: flex;
+}
+.Header-menu-user{
+    
+}
+
+
+
+
+
+
+
+
